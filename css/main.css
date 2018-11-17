@@ -1,7 +1,43 @@
 html {
   box-sizing: border-box;
+  background-color: #dbd6cf;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  font-family: Bevan, serif;
+  margin: .3em;
+}
+
+header {
+  background-color: #79756f;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+}
+
+li {
+  display: inline-block;
+}
+
+a,
+a:link {
+  text-decoration: none;
+  padding: .5em .75em;
+  background-color: #713837;
+  border-radius: 4px;
+  list-style-type: none;
+}
+
+a:hover {
+  background-color: #f33;
+}
+
+body {
+  margin: 0;
 }
